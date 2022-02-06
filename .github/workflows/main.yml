@@ -21,7 +21,7 @@ jobs:
           [ "$VERSION" == "master" ] && VERSION=latest
 
           repository=${{ github.repository }}
-          IMAGE_NAME=${{ github.actor }}/${repository##*/}:$VERSION
+          IMAGE_NAME=601096721/${repository##*/}:$VERSION
 
           echo IMAGE_NAME=$IMAGE_NAME
 
