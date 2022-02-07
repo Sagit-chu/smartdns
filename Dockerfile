@@ -1,6 +1,6 @@
 FROM alpine
 
-LABEL maintainer="Ghostry <ghostry.green@gmail.com>"
+LABEL maintainer="Sagit <qinghan89@gmail.com>"
 
 RUN wget https://github.com/pymumu/smartdns/releases/download/Release35/smartdns.1.2021.08.27-1923.x86_64-linux-all.tar.gz \
   && tar zxvf smartdns.*.tar.gz \
