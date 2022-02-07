@@ -19,5 +19,5 @@ cat /tmp/temp_gfwlist | sed 's/^/\./g' > /tmp/smartdns_gfw_domain.conf
 
 sed -i 's/^/nameserver \//' /tmp/smartdns_gfw_domain.conf
 sed -i 's/$/\/GFW/' /tmp/smartdns_gfw_domain.conf
-cat /tmp/smartdns_gfw_domain.conf > config.conf
+cat base.config /tmp/smartdns_gfw_domain.conf > config.conf
 
