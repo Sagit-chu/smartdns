@@ -1,9 +1,9 @@
 # docker-smartdns
 **使用**
 ```
-docker pull 601096721/smartdns
+docker pull sagit.io/601096721/smartdns
 
-docker run -d -p 53:53/udp --restart=always --name smartdns -v ~/.smartdns:/smartdns 601096721/smartdns
+docker run -d -p 53:53/udp --restart=always --name smartdns -v ~/.smartdns:/smartdns sagit.io/601096721/smartdns
 docker restart smartdns
 ```
 
